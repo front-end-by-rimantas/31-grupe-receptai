@@ -1,4 +1,4 @@
-function pageAbout() {
+function pageReceptai() {
     return `<!DOCTYPE html>
             <html lang="en">
 
@@ -8,7 +8,7 @@ function pageAbout() {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Receptai</title>
 
-                <base href="http://localhost:3000/about/">
+                <base href="http://localhost:3000/receptai/">
                 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
                 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,19 +24,19 @@ function pageAbout() {
             </head>
 
             <body>
-                <h1>Receptai - apie mus</h1>
+                <h1>Receptai</h1>
                 <p>Cia bus patys blogiausi receptai pasaulyje - uzsukite kai bus paruosta 😈🍕</p>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat sint, tenetur dolore fugit quo! Consectetur maxime incidunt cumque impedit ut amet fugit, odio exercitationem eius, tempora ratione consequatur minima.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat sint, tenetur dolore fugit quo! Consectetur maxime incidunt cumque impedit ut amet fugit, odio exercitationem eius, tempora ratione consequatur minima.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat sint, tenetur dolore fugit quo! Consectetur maxime incidunt cumque impedit ut amet fugit, odio exercitationem eius, tempora ratione consequatur minima.</p>
-
-                <img src="/img/saliami-1.jpg" alt="Saliamis">
-                <img src="/img/vaikiska-pica.png" alt="Vaikiska pica">
+                <ul>
+                    <li>Blynai <a href="./blynai">Read more ></a></li>
+                    <li>Duona <a href="./duona">Read more ></a></li>
+                    <li>Cepelinai <a href="./cepelinai">Read more ></a></li>
+                </ul>
+                
                 <script src="/js/main.js"></script>
             </body>
 
             </html>`;
 }
 
-module.exports = pageAbout;
+module.exports = pageReceptai;
